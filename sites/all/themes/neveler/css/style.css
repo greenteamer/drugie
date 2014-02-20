@@ -1,0 +1,192 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+@font-face {
+	font-family:"eurofurence light";
+	src:url("../fonts/eurofurence_light_regular.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:"eurofurence regular";
+	src:url("../fonts/eurofurence_regular.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+ #navbar .navbar-collapse.collapse {
+ 	float: right;
+ }
+body.navbar-is-fixed-top {
+	padding-top: 51px!important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:"eurofurence light";
+} 
+h2 {
+	font-size: 50px;	
+	text-align: center;
+}
+
+/*slider*/
+/*.md-mainimg img {
+	position: fixed;
+	z-index: 0;
+}
+.md-strips-container, .md-blocks-container {
+	overflow: visible;
+	position: fixed;
+	z-index: 100;
+	width:100%;
+}*/
+.region-header {
+	height: 510px;
+}
+#block-md-slider-1 {
+	position: fixed;
+	height: 510px;
+	width: 100%;
+	z-index: -100;
+}
+.md-slide-items {
+	height: 510px;
+}
+
+/*parallax*/
+/*#intro{
+	 background:url(../img/unsplash.jpg) 50% 0 no-repeat fixed;
+	 color: white;
+	 height: 600px;
+	 margin: 0;
+	 padding: 160px 0 0 0;
+}*/
+#intro .bg{
+	 background: url(../img/unsplash.jpg) 50% 0 no-repeat fixed;
+	  position: absolute;
+	  z-index: 200;
+}
+#third {
+	background: url(../img/unsplash2.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	min-height: 420px;
+	padding: 100px 0 100px 0;	
+}
+#second {
+	background: url(../img/unsplash.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	min-height: 420px;
+	padding: 100px 0 0 0;	
+}
+.slogan_in_parallax {
+	font-size: 40px;
+}
+
+/*div settings*/
+.my_main_container {
+	padding: 60px 0;
+	background: #fff;
+}
+.my_hight .jumbotron {
+	background: #fff;
+	padding: 0;
+}
+.my_hight {
+	padding: 60px 0;
+	background: #fff;
+}
+.under_footer {
+	padding: 60px 0;
+	background: #fff;
+}
+.my_footer {
+	background-color: #313131;
+}
+.my_footer .footer {
+	border: none;
+	color: #fff;
+	margin-top: 0;
+}
+#block-quicktabs-team-quicktabs  h2 {
+	text-align: center;
+	font-family:"eurofurence light";
+}
+#quicktabs-team_quicktabs ul {
+	padding: 0;
+	text-align: center;
+}
+#quicktabs-team_quicktabs ul li {	
+	border: 1px solid #BBB;
+	padding: 15px 10px 12px 10px;
+	line-height: 45px;
+}
+#quicktabs-team_quicktabs ul li:hover {
+	background: #bbb;
+}
+#quicktabs-team_quicktabs ul li a {
+	padding: 15px;
+	color: #505050;
+	font-size: 25px;
+	font-weight: 100;
+}
+#quicktabs-team_quicktabs ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+#quicktabs-team_quicktabs ul li:hover a {
+	color: #fff;
+}
+
+/*portfolio*/
+.portfolio {
+	background: #fff;
+}
+.view-id-portfolio_view img {
+	width: 100%;
+	height: auto;
+}
+.view-id-portfolio_view .col-sm-4 {
+	margin-bottom: 10px;
+	padding: 0 5px;
+}
+#block-views-portfolio-view-block h2.block-title {
+	text-align: center;
+	margin-bottom: 35px;
+}
+.top_content,
+.portfolio {
+	padding: 60px 0 100px 0;
+}
+.content_slogan {
+	padding: 80px 0;
+}
+.content_slogan {
+	background: #29ABE2;
+}
+.big_slogan {
+	color: #fff;
+	font-size: 50px;
+	font-family:"eurofurence light";
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/*forms*/
+#block-webform-client-block-10,
+#block-webform-client-block-10--2 {
+	padding: 30px;
+	background: #fff;
+	border-radius: 10px;
+	color: #999;
+}
+.center {
+	text-align: center;
+}
+
+/*contacts*/
+.contacts {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+
