@@ -10,6 +10,8 @@ base theme = bootstrap
 
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
+regions[preim]    = 'Преимущества'
+regions[uslugi]    = 'Услуги'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[img_first] = 'Image first'
